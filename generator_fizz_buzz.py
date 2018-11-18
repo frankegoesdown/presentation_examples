@@ -1,0 +1,1 @@
+print(', \n'.join(["fizz"*(num % 3 == 0)+"buzz"*(num % 5 == 0) or str(num) for num in range(1, 101)]))
